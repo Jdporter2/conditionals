@@ -44,12 +44,20 @@ if type(weight) == int:
 seats = [1,1,0,1]
 if(seats[0]  == 0):
     print("Seat 1 is available")
-elif(seats[1] == 0):
+else:
+    print("Seat 1 is not available")
+if(seats[1] == 0):
     print("Seat 2 is available")
-elif(seats[2] == 0):
+else:
+    print("Seat 2 is not available")
+if(seats[2] == 0):
     print("Seat 3 is available")
-elif(seats[3] == 0):
+else:
+    print("Seat 3 is not available")
+if(seats[3] == 0):
     print("Seat 4 is available")
 else:
+    print("Seat 4 is not available")
+if seats == [1,1,1,1]:
     print("No seats are available")    
     
